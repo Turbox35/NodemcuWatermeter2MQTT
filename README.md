@@ -71,10 +71,10 @@ Modify it you have an issue or multiple similar devices
 - MQTT setting
 
 ```bash
-  const char* mqttServer = "192.168.3.9"; // The  IP of your MQTT broker
+  const char* mqttServer = "192.168.X.X"; // The  IP of your MQTT broker
   const int mqttPort = 1883; //The port of your MQTT broker
-  const char* mqttUser = "admin"; //The user of your MQTT broker
-  const char* mqttPassword = "mosquitto35*"; // The password associated to the user
+  const char* mqttUser = "xxxx"; //The user of your MQTT broker
+  const char* mqttPassword = "xxxxxx"; // The password associated to the user
   const char* autodiscoveryTopic = "homeassistant"; //The auto discovery topic
   const char* topic = "nodemcudata"; //The MQTT topic
   const int availabilitydelay = 60000; //set time in milisecond of the availability mqtt publish
